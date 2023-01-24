@@ -48,6 +48,7 @@ function lights(){
     document.getElementById('img6').style.boxShadow = '2px 0px 25px black';
     document.getElementById('img7').style.boxShadow = '2px 0px 25px black';
     document.getElementById('img8').style.boxShadow = '2px 0px 25px black';
+    document.getElementById('img9').style.boxShadow = '2px 0px 25px black';
     document.querySelector('.likod').style.backgroundColor = 'white'
     document.querySelector('.likod').style.boxShadow = '2px 0px 25px black'
     document.querySelector('.head').style.color = 'black'
@@ -85,6 +86,7 @@ function ilaws(){
     document.getElementById('img6').style.boxShadow = '2px 0px 25px red';
     document.getElementById('img7').style.boxShadow = '2px 0px 25px red';
     document.getElementById('img8').style.boxShadow = '2px 0px 25px red';
+    document.getElementById('img9').style.boxShadow = '2px 0px 25px red';
     document.querySelector('.likod').style.backgroundColor = 'black'
     document.querySelector('.likod').style.boxShadow = '2px 0px 25px red'
     document.querySelector('.head').style.color = 'white'
