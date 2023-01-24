@@ -53,6 +53,9 @@ function lights(){
     document.querySelector('.head').style.color = 'black'
     document.getElementById('sulat').style.color = 'black'
     document.getElementById('bg').style.backgroundColor = 'white'
+    document.querySelector('.qualification').style.boxShadow = '3px 0px 25px black'
+    document.querySelector('.qualification').style.backgroundColor = 'white'
+    document.getElementById('infota').style.color = 'black'
 }
 
 function ilaws(){
@@ -87,6 +90,9 @@ function ilaws(){
     document.querySelector('.head').style.color = 'white'
     document.getElementById('sulat').style.color = 'white'
     document.getElementById('bg').style.backgroundColor = 'black'
+    document.querySelector('.qualification').style.boxShadow = '3px 0px 25px red'
+    document.querySelector('.qualification').style.backgroundColor = 'black'
+    document.getElementById('infota').style.color = 'white'
 }
 
 //T shirts
@@ -140,6 +146,24 @@ function shirttt(){
         }
         else{
             shiii.classList.remove('shirt3')
+        }
+    })
+}
+
+const shirt4 = document.querySelectorAll('.img9');
+window.addEventListener('scroll', shirtttt);
+
+function shirtttt(){
+    const triggerBottom = innerHeight / 5 * 4;
+
+    shirt4.forEach(shiiii => {
+        const shiiiiTop = shiiii.getBoundingClientRect().top;
+
+        if(shiiiiTop < triggerBottom){
+            shiiii.classList.add('shirt4')
+        }
+        else{
+            shiiii.classList.remove('shirt4')
         }
     })
 }
