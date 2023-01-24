@@ -19,7 +19,7 @@ body{
     height: 100vh;
 }
 
-#section0 .custom-shape-divider-top-1674126850 {
+/* #section0 .custom-shape-divider-top-1674126850 {
     position: absolute;
     top: 0;
     left: 0;
@@ -42,7 +42,7 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     fill: black;
-}
+} */
 
 /* @keyframes rgbaanimation {
     from{
