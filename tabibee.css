@@ -458,7 +458,7 @@ body{
 #section3 .art{
     width: 10%;
     margin-top: -3.5%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 #section3 p{
@@ -630,9 +630,9 @@ footer .yt{
 
 /* mobile responsive*/
 
-/* @media screen and (max-width: 1600px) and (min-width: 1440px) {
+@media screen and (max-width: 1600px) and (min-width: 1440px) {
     #section0 .container h1{
-        margin-top: 7%;
+        margin-top: 2%;
     }
 
     #section0 .container .started{
@@ -643,4 +643,977 @@ footer .yt{
         width: 100%;
         height: 180vh;
     }
-} */
+
+    /*    section 2     */
+    #section2 {
+        width: 100%;
+        height: 250vh;
+    }
+
+    /*    section 3      */
+     #section3 p{
+        font-size: 140%;
+     }
+
+     #section3 .omsim{
+        margin-top: 60%;
+     }
+
+     #section3 .tshirt{
+        margin-top: 55%;
+     }
+
+     #section3 .desenyo{
+        margin-top: 55%;
+     }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+    #section0{
+        width: 100%;
+        height: 70vh;
+    }
+    #section0 .container{
+        margin-top: 20%;
+    }
+
+    #section0 .container .started{
+        margin-top: 25%;
+    }
+
+    #section0 .tt{
+        margin-left: 72%;
+        margin-top: -3.5%;
+    }
+
+    #section0 .design{
+        margin-left: 65%;
+        margin-top: -3.5%;
+    }
+
+    #section0 .contact{
+        margin-left: 55%;
+        margin-top: -3.5%;
+    }
+
+    #section0 .fa-message{
+        margin-top: -4.5%;
+    }
+
+    /*  section 1     */
+    #section1{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section1 .welcome{
+        margin-top: 2%;
+        margin-left: 12%;
+    }
+
+    #section1 .prints{
+        margin-top: 15%;
+        font-size: 45px;
+    }
+
+    #section1 .img1{
+        margin-top: 20%;
+    }
+
+    #section1 .img2{
+        margin-top: 20%;
+    }
+
+    #section1 .img3{
+        margin-top: 20%;
+    }
+
+    #section1 .img4{
+        margin-top: 20%;
+    }
+
+    #section1 .img5{
+        margin-top: 40%;
+    }
+    
+    #section1 .img55{
+        margin-top: 44.5%;
+    }
+    
+    #section1 .img56{
+        margin-top: 40%;
+    }
+
+    /*    section 2      */
+    #section2{
+        width: 100%;
+        height: 200vh;
+    }
+
+    #section2 .img6{
+        width: 50%;
+        margin-left: 27%;
+    }
+
+    #section2 .img7{
+        width: 50%;
+        margin-left: 27%;
+        margin-top: 43%;
+    }
+
+    #section2 .img8{
+        width: 50%;
+        margin-left: 27%;
+        margin-top: 77%;
+    }
+
+    #section2 .img9{
+        width: 50%;
+        margin-left: 27%;
+        margin-top: 110%;
+    }
+
+    /*   section3    */
+    #section3{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section3 .likod{
+        width: 52%;
+        height: 70%;
+    }
+
+    #section3 .art{
+        margin-left: 21%;
+        margin-top: -2%;
+    }
+
+    #section3 p{
+        font-size: 16.2px;
+    }
+
+    #section3 .tshirt{
+        margin-top: 62%
+    }
+
+    #section3 .desenyo{
+        margin-top: 62%;
+    }
+
+    #section3 .bg{
+        width: 50%;
+        margin-top: -20%;
+        margin-left: 110%;
+        border-radius: 50%;
+        height: 50%;
+    }
+
+    #section3 .qualification{
+        margin-top: 110%;
+    }
+
+    /*     footer      */
+    footer{
+        width: 100%;
+        height: 30vh;
+    }
+
+    footer table{
+        margin-left: 32.5%;
+    }
+
+    footer .copyright{
+        margin-top: 10%;
+        margin-left: 32%;
+    }
+
+    footer .fb{
+        margin-top: 2%;
+    }
+
+    footer .tt{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    footer .yt{
+        margin-top: 2%;
+        margin-left: 17%;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    #section0{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section0 .container{
+        margin-top: 34%;
+    }
+
+    #section0 .container h1{
+        font-size: 47px;
+    }
+
+    #section0 .container .started{
+        margin-top: 33%;
+    }
+
+    #section0 .tt{
+        margin-left: 72%;
+        margin-top: -4.5%;
+    }
+    
+    #section0 .design{
+        margin-left: 64%;
+        margin-top: -4.5%;
+    }
+
+    #section0 .contact{
+        margin-left: 53%;
+        margin-top: -4.5%;
+    }
+
+    #section0 .fa-message{
+        display: none;
+    }
+
+    #section0 .inputs{
+        margin-top: -25%;
+        margin-left: 60%;
+    }
+
+    #section0 .inputss{
+        margin-top: -25%;
+        margin-left: 60%;
+    }
+
+
+    /*     section 1    */
+    #section1{
+        width: 100vh;
+        height: 300vh;
+    }
+
+    #section1 .welcome{
+        margin-left: 8%;
+        font-size: 245%;
+    }
+
+    #section1 .prints{
+        margin-top: 17%;
+        font-size: 35px;
+    }
+
+    #section1 .img1{
+        width: 40%;
+        margin-top: 20%;
+    }
+
+    #section1 .img1:hover{
+        width: 42%;
+    }
+
+    #section1 .img2{
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+
+    #section1 .img2:hover{
+        width: 42%;
+    }
+
+    #section1 .img3{
+        width: 40%;
+        margin-top: 64%;
+        margin-left: 5%;
+    }
+
+    #section1 .img3:hover{
+        width: 42%;
+    }
+
+    #section1 .img4{
+        width: 40%;
+        margin-top: 72%;
+        margin-left: 50%;
+    }
+
+    #section1 .img4:hover{
+        width: 42%;
+    }
+
+    #section1 .img5{
+        width: 40%;
+        margin-top: 113%;
+    }
+
+    #section1 .img5:hover{
+        width: 42%;
+    }
+
+    #section1 .img55{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 175%;
+    }
+
+    #section1 .img55:hover{
+        width: 72%;
+    }
+
+    #section1 .img56{
+        width: 40%;
+        margin-top: 113%;
+        margin-left: 50%;
+    }
+
+    #section1 .img56:hover{
+        width: 42%;
+    }
+
+    /*      section 2        */
+    #section2{
+        width: 100%;
+        height: 270vh;
+    }
+
+    #section2 .img6{
+        width: 70%;
+        margin-left: 16%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt1{
+        transform: translateX(0);
+    }
+
+    #section2 .img7{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 56%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt2{
+        transform: translateX(0);
+    }
+
+    #section2 .img8{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 103%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt3{
+        transform: translateX(0);
+    }
+
+    #section2 .img9{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 150%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt4{
+        transform: translateX(0);
+    }
+
+    /*     section3       */
+    #section3{
+        width: 100%;
+        height: 145vh;
+    }
+
+    #section3 .likod{
+        margin-left: 15%;
+        width: 75%;
+    }
+
+    #section3 p{
+        font-size: 18px;
+    }
+
+    #section3 .bg{
+        margin-left: -7%;
+        margin-top: 75%;
+        position: absolute;
+    }
+
+    #section3 .qualification{
+        margin-left: 110%;
+        position: absolute;
+        width: 100%;
+        margin-top: 9%;
+    }
+
+    /*    footer      */
+    footer{
+        width: 100%;
+        height: 35vh;
+    }    
+
+    footer table{
+        margin-left: 33%;
+    }
+
+    footer .copyright{
+        margin-top: 10%;
+        margin-left: 33%;
+    }
+
+    footer .you{
+        margin-top: -3%;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+    #section0{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section0 .container{
+        margin-top: 35%;
+    }
+
+    #section0 .fa-message{
+        display: none;
+    }
+
+    #section0 .tt{
+        margin-left: 74%;
+        margin-top: -4%;
+    }
+
+    #section0 .design{
+        margin-left: 65%;
+        margin-top: -4%;
+    }
+
+    #section0 .contact{
+        margin-left: 53%;
+        margin-top: -4%;
+    }
+
+    #section0 .container h1{
+        font-size: 35px;
+        margin-top: 3%;
+    }
+
+    #section0 .container .started{
+        margin-top: 40%;
+    }
+
+    #section0 .container img{
+        width: 150px;
+    }
+
+    /*   section 1     */
+    #section1{
+        width: 100vh;
+        height: 230vh;
+    }
+
+    #section1 .welcome{
+        margin-left: 8%;
+        font-size: 245%;
+    }
+
+    #section1 .prints{
+        margin-top: 17%;
+        font-size: 35px;
+    }
+
+    #section1 .img1{
+        width: 40%;
+        margin-top: 20%;
+    }
+
+    #section1 .img1:hover{
+        width: 42%;
+    }
+
+    #section1 .img2{
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+
+    #section1 .img2:hover{
+        width: 42%;
+    }
+
+    #section1 .img3{
+        width: 40%;
+        margin-top: 64%;
+        margin-left: 5%;
+    }
+
+    #section1 .img3:hover{
+        width: 42%;
+    }
+
+    #section1 .img4{
+        width: 40%;
+        margin-top: 72%;
+        margin-left: 50%;
+    }
+
+    #section1 .img4:hover{
+        width: 42%;
+    }
+
+    #section1 .img5{
+        width: 40%;
+        margin-top: 113%;
+    }
+
+    #section1 .img5:hover{
+        width: 42%;
+    }
+
+    #section1 .img55{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 175%;
+    }
+
+    #section1 .img55:hover{
+        width: 72%;
+    }
+
+    #section1 .img56{
+        width: 40%;
+        margin-top: 113%;
+        margin-left: 50%;
+    }
+
+    #section1 .img56:hover{
+        width: 42%;
+    }
+
+    /*     section 2      */
+    #section2{
+        width: 100%;
+        height: 210vh;
+    }
+
+    #section2 .img6{
+        width: 70%;
+        margin-left: 16%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt1{
+        transform: translateX(0);
+    }
+
+    #section2 .img7{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 56%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt2{
+        transform: translateX(0);
+    }
+
+    #section2 .img8{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 103%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt3{
+        transform: translateX(0);
+    }
+
+    #section2 .img9{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 150%;
+        transform: translateX(10%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt4{
+        transform: translateX(0);
+    }
+
+    /*     section3       */
+    #section3{
+        width: 100%;
+        height: 120vh;
+    }
+
+    #section3 .likod{
+        margin-left: 15%;
+        height: 65vh;
+        width: 75%;
+    }
+
+    #section3 p{
+        font-size: 18px;
+    }
+
+    #section3 .bg{
+        margin-left: -7%;
+        margin-top: 75%;
+        height: 50%;
+        position: absolute;
+    }
+
+    #section3 .qualification{
+        margin-left: 110%;
+        position: absolute;
+        width: 100%;
+        margin-top: 9%;
+    }
+
+    /*    footer      */
+    footer{
+        width: 100%;
+        height: 35vh;
+    }    
+
+    footer table{
+        margin-left: 26.5%;
+    }
+
+    footer .copyright{
+        margin-top: 23%;
+        margin-left: 28%;
+    }
+
+    footer .you{
+        margin-left: 35%;
+        margin-top: 12%;
+    }
+
+    footer .tt{
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+
+    footer .yt{
+        margin-left: 45%;
+        margin-top: 15%;
+    }
+
+    footer .fb{
+        margin-left: 58%;
+        margin-top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    #section0{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section0 .container{
+        margin-top: 60%;
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    #section0 .inputs{
+        margin-top: -30%;
+        margin-left: 47%;
+        font-size: 15px;
+    }
+
+    #section0 .inputss{
+        margin-top: -30%;
+        margin-left: 47%;
+        font-size: 15px;
+    }
+
+    #section0 .fa-message{
+        display: none;
+    }
+
+    #section0 .tt{
+        margin-left: 78%;
+        margin-top: -6.5%;
+        font-size: 15px;
+    }
+
+    #section0 .design{
+        margin-left: 63%;
+        margin-top: -6.5%;
+        font-size: 15px;
+    }
+
+    #section0 .contact{
+        margin-left: 43%;
+        margin-top: -6.5%;
+        font-size: 15px;
+    }
+
+    #section0 .container h1{
+        font-size: 25px;
+        margin-top: 4.5%;
+    }
+
+    #section0 .container .started{
+        margin-top: 40%;
+        margin-left: 28%;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    #section0 .container .started:hover{
+        font-size: 16px;
+        margin-left: 28%;
+        transition: 0.5s;
+    }
+
+    #section0 .container img{
+        width: 100px;
+        margin-left: 70%;
+    }
+
+    /*   section 1     */
+    #section1{
+        width: 100vh;
+        height: 150vh;
+    }
+
+    #section1 .welcome{
+        margin-left: 8%;
+        margin-top: 10%;
+        font-size: 145%;
+    }
+
+    #section1 .prints{
+        margin-top: 32%;
+        font-size: 20px;
+    }
+
+    #section1 .img1{
+        width: 40%;
+        margin-top: 40%;
+    }
+
+    #section1 .img1:hover{
+        width: 42%;
+    }
+
+    #section1 .img2{
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 40%;
+    }
+
+    #section1 .img2:hover{
+        width: 42%;
+    }
+
+    #section1 .img3{
+        width: 40%;
+        margin-top: 84%;
+        margin-left: 5%;
+    }
+
+    #section1 .img3:hover{
+        width: 42%;
+    }
+
+    #section1 .img4{
+        width: 40%;
+        margin-top: 90%;
+        margin-left: 50%;
+    }
+
+    #section1 .img4:hover{
+        width: 42%;
+    }
+
+    #section1 .img5{
+        width: 40%;
+        margin-top: 130%;
+    }
+
+    #section1 .img5:hover{
+        width: 42%;
+    }
+
+    #section1 .img55{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 190%;
+    }
+
+    #section1 .img55:hover{
+        width: 72%;
+    }
+
+    #section1 .img56{
+        width: 40%;
+        margin-top: 130%;
+        margin-left: 50%;
+    }
+
+    #section1 .img56:hover{
+        width: 42%;
+    }
+
+    /*     section 2      */
+    #section2{
+        width: 100%;
+        height: 120vh;
+    }
+
+    #section2 .img6{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 20%;
+        transform: translateX(5%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt1{
+        transform: translateX(0);
+    }
+
+    #section2 .img7{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 66%;
+        transform: translateX(5%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt2{
+        transform: translateX(0);
+    }
+
+    #section2 .img8{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 113%;
+        transform: translateX(5%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt3{
+        transform: translateX(0);
+    }
+
+    #section2 .img9{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 160%;
+        transform: translateX(5%);
+        transition: all 1.5s;
+    }
+
+    #section2 .shirt4{
+        transform: translateX(0);
+    }
+
+    /*     section3       */
+    #section3{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #section3 .likod{
+        margin-left: 15%;
+        height: 32vh;
+        width: 75%;
+    }
+
+    #section3 .art{
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 15%;
+    }
+
+    #section3 p{
+        font-size: 8px;
+    }
+
+    #section3 .tshirt{
+        font-size: 8px;
+        margin-top: 35%;
+    }
+
+    #section3 .desenyo{
+        font-size: 8px;
+        margin-top: 35%;
+    }
+
+    #section3 .bg{
+        margin-left: -7%;
+        margin-top: 55%;
+        height: 50%;
+        position: absolute;
+    }
+
+    #section3 .qualification{
+        margin-left: 110%;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        margin-top: 9%;
+    }
+
+    #section3 .info{
+        font-size: 8px;
+    }
+
+    /*    footer      */
+    footer{
+        width: 100%;
+        height: 35vh;
+    }    
+
+    footer table{
+        margin-left: 26.5%;
+    }
+
+    footer .copyright{
+        margin-top: 23%;
+        margin-left: 28%;
+    }
+
+    footer .you{
+        margin-left: 35%;
+        margin-top: 12%;
+    }
+
+    footer .tt{
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+
+    footer .yt{
+        margin-left: 45%;
+        margin-top: 15%;
+    }
+
+    footer .fb{
+        margin-left: 58%;
+        margin-top: 15%;
+    }
+
+}
