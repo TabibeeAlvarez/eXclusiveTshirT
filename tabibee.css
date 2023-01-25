@@ -1563,13 +1563,17 @@ footer .yt{
 
     #section3 .likod{
         margin-left: 15%;
-        height: 32vh;
+        height: 35vh;
         width: 75%;
     }
 
+    #section3 .head{
+        font-size: 20px;
+    }
+
     #section3 .art{
-        margin-left: 10%;
-        margin-top: 1%;
+        margin-left: 9%;
+        margin-top: -1.5%;
         width: 15%;
     }
 
@@ -1579,17 +1583,17 @@ footer .yt{
 
     #section3 .tshirt{
         font-size: 8px;
-        margin-top: 35%;
+        margin-top: 45%;
     }
 
     #section3 .desenyo{
         font-size: 8px;
-        margin-top: 35%;
+        margin-top: 45%;
     }
 
     #section3 .bg{
         margin-left: -7%;
-        margin-top: 55%;
+        margin-top: 70%;
         height: 50%;
         position: absolute;
     }
