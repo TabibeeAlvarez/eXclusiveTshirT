@@ -72,7 +72,7 @@ function ilaws(){
     document.getElementById('tabibee').style.color = 'white';
     document.getElementById('started').style.backgroundColor = 'red'
     document.getElementById('started').style.color = 'black'
-    document.getElementById('container').style.boxShadow = '3px 0px 15px red';
+    document.getElementById('container').style.boxShadow = '3px 0px 50px red';
     document.getElementById('bs').style.boxShadow = '3px 0px 15px red'
     document.getElementById('bss').style.boxShadow = '3px 0px 15px red'
     document.getElementById('bsss').style.boxShadow = '3px 0px 15px red'
@@ -206,4 +206,91 @@ function backk(){
             grounds.classList.remove('background')
         }
     })
+}
+
+const sheesh = document.querySelectorAll('.container');
+window.addEventListener('load', cont)
+
+function cont(){
+    const triggerBottom = innerHeight / 5 * 4;
+
+    sheesh.forEach(conts => {
+        const contsTop = conts.getBoundingClientRect().top;
+
+        if(contsTop < triggerBottom){
+            conts.classList.add('conts')
+        }
+        else{
+            conts.classList.remove('conts')
+        }
+    })
+}
+
+
+
+
+//                             FOR CELLPHONE                                   //
+
+function off(){
+    document.getElementById('offf').style.display = 'none'
+    document.getElementById('onn').style.opacity = '100'
+    document.querySelector('.main').style.backgroundColor = 'white'
+    document.querySelector('.main').style.boxShadow = '3px 0px 25px deepskyblue'
+    document.querySelector('.contact1').style.color = 'black'
+    document.querySelector('.tshirts1').style.color = 'black'
+    document.querySelector('.designs1').style.color = 'black'
+    document.querySelector('html').style.backgroundColor = 'white'
+    document.querySelector('.cell-phone').style.backgroundColor = 'white'
+    document.getElementById('second').style.backgroundColor = 'white'
+    document.getElementById('sb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('ssb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('sssb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('ssssb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('sssssb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('ssssssb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('sssssssb').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('welcomee').style.textShadow = '2px 2px 2px deepskyblue'
+    document.getElementById('welcomee').style.color = 'black'
+    document.getElementById('printer').style.textShadow = '2px 2px 2px deepskyblue'
+    document.getElementById('printer').style.color = 'black'
+    document.getElementById('pangatlo').style.backgroundColor = 'white'
+    document.getElementById('img66').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('img77').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('img88').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('img99').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('tungkol').style.backgroundColor = 'white'
+    document.querySelector('.shirTE').style.color = 'black'
+    document.querySelector('.shirTE').style.textShadow = '3px 0px 50px deepskyblue'
+}
+
+function on(){
+    document.getElementById('onn').style.opacity = '0'
+    document.getElementById('offf').style.display = 'block'
+    document.querySelector('.main').style.backgroundColor = 'black'
+    document.querySelector('.main').style.boxShadow = '3px 0px 25px grey'
+    document.querySelector('.contact1').style.color = 'white'
+    document.querySelector('.tshirts1').style.color = 'white'
+    document.querySelector('.designs1').style.color = 'white'
+    document.querySelector('html').style.backgroundColor = '#111 '
+    document.querySelector('.cell-phone').style.backgroundColor = '#111'
+    document.getElementById('second').style.backgroundColor = '#111'
+    document.getElementById('sb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('ssb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('sssb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('ssssb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('sssssb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('ssssssb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('sssssssb').style.boxShadow = '3px 0px 15px red'
+    document.getElementById('welcomee').style.textShadow = '2px 2px 4px red'
+    document.getElementById('welcomee').style.color = 'white'
+    document.getElementById('printer').style.textShadow = '2px 2px 2px red'
+    document.getElementById('printer').style.color = 'white'
+    document.getElementById('pangatlo').style.backgroundColor = '#111'
+    document.getElementById('img66').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('img77').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('img88').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('img99').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('tungkol').style.backgroundColor = '#111'
+    document.querySelector('.shirTE').style.color = 'white'
+    document.querySelector('.shirTE').style.textShadow = '3px 0px 50px red'
 }

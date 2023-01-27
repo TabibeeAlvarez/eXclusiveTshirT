@@ -14,6 +14,30 @@ body{
     background-color: #111;
 }
 
+/*  hides   */
+
+#cell-phone{
+    display: none;
+}
+
+.second{
+    display: none;
+}
+
+#pangatlo{
+    display: none;
+}
+
+#tungkol{
+    display: none;
+}
+
+#paa-foot{
+    display: none;
+}
+
+/*   end of hides   */
+
 #section0{
     width: 100%;
     height: 100vh;
@@ -101,10 +125,20 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: black;
-    box-shadow: 3px 0px 15px red;
+    box-shadow: 3px 0px 50px red;
     margin-left: 15%;
     width: 70%;
     margin-top: 17%;
+    transform: translateX(-50%);
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+#section0 .conts{
+    opacity: 100;
+    transform: translateX(0);
+    filter: blur(0);
 }
 
 #section0 .fa-message{
@@ -127,7 +161,7 @@ body{
     position: absolute;
     color: white;
     margin-top: -3%;
-    margin-left: 69%;
+    margin-left: 68%;
     text-decoration: none;
 }
 
@@ -157,25 +191,19 @@ body{
 #section0 .container .started{
     text-decoration: none;
     position: absolute;
-    margin-left: 22%;
+    margin-left: 30%;
     margin-top: 20%;
     font-size: 150%;
     color: black;
     background-color: red;
     padding-left: 2%;
     padding-right: 2%;
-    transition: 0.5s;
+    transition: 2s;
     animation: rgbanimationn;
     animation-timing-function: ease-in-out;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-
-#section0 .container .started:hover{
-    transition: 0.5s;
-    font-size: 163%;
-    margin-left: 22%;
 }
 
 /* @keyframes rgbanimationn{
@@ -711,7 +739,7 @@ footer .yt{
     }
 
     #section0 .design{
-        margin-left: 65%;
+        margin-left: 63.5%;
         margin-top: -3.5%;
     }
 
@@ -891,7 +919,7 @@ footer .yt{
     }
     
     #section0 .design{
-        margin-left: 64%;
+        margin-left: 63%;
         margin-top: -4.5%;
     }
 
@@ -1069,7 +1097,7 @@ footer .yt{
 
     #section3 .bg{
         margin-left: -7%;
-        margin-top: 75%;
+        margin-top: 85%;
         position: absolute;
     }
 
@@ -1100,550 +1128,1150 @@ footer .yt{
     }
 }
 
-@media screen and (max-width: 767px) and (min-width: 425px) {
-    #section0{
+/*                         FOR CELLPHONE                                         */
+
+@media screen and (max-width: 767px) and (min-width: 625px) {
+    #cell-phone{
+        display: block;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .cell-phone{
+        background-color: #111;
+        width: 100%;
+        height: 140vh;
+    }
+
+    .second{
+        display: block;
+    }
+
+    #main1{
+        display: none;
+    }
+
+    #pangatlo{
+        display: block;
+    }
+
+    #tungkol{
+        display: block;
+    }
+
+    #paa-foot{
+        display: block;
+    }
+
+    .custom-shape-divider-top-1674724246 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1674724246 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-top-1674724246 .shape-fill {
+        fill: grey;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1674724246 svg {
+            width: calc(100% + 1.3px);
+            height: 126px;
+        }
+    }
+
+    .main{
+        background-color: black;
+        margin-top: 25%;
+        margin-left: 25%;
+        width: 50%;
+        height: 45vh;
+        border-radius: 2rem;
+        box-shadow: 4px 0px 25px grey;
+        position: absolute;
+    }
+
+    .board1{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: absolute;
+    }
+
+    .contact1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 68%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tshirts1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 78%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .designs1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 88%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .fa-sun{
+        color: black;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .fa-moon{
+        color: red;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 100;
+    }
+
+    div h1{
+        color: red;
+    }
+
+    /*     second line     */
+
+    #second{
+        width: 100%;
+        height: 300vh;
+    }
+
+    #second .welcome{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+    }
+
+    #second #printer{
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    .second .img1{
+        position: absolute;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img2{
+        position: absolute;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img3{
+        position: absolute;
+        width: 40%;
+        margin-top: 55%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img4{
+        position: absolute;
+        width: 40%;
+        margin-top: 62.5%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img5{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img55{
+        position: absolute;
+        width: 80%;
+        margin-top: 165%;
+        margin-left: 7%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img56{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    /*      section 3         */
+    #pangatlo{
+        width: 100%;
+        height: 200vh;
+    }
+
+    #pangatlo #tshirt{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #pangatlo .img6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt1{
+        opacity: 100;
+    }
+
+    #pangatlo .img7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt2{
+        opacity: 100;
+    }
+
+    #pangatlo .img8{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt3{
+        opacity: 100;
+    }
+
+    #pangatlo .img9{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt4{
+        opacity: 100;
+    }
+
+    /*  tungkol       */
+
+    #tungkol{
         width: 100%;
         height: 100vh;
     }
 
-    #section0 .container{
-        margin-top: 35%;
-    }
-
-    #section0 .fa-message{
-        display: none;
-    }
-
-    #section0 .tt{
-        margin-left: 74%;
-        margin-top: -4%;
-    }
-
-    #section0 .design{
-        margin-left: 65%;
-        margin-top: -4%;
-    }
-
-    #section0 .contact{
-        margin-left: 53%;
-        margin-top: -4%;
-    }
-
-    #section0 .container h1{
-        font-size: 35px;
-        margin-top: 3%;
-    }
-
-    #section0 .container .started{
-        margin-top: 40%;
-    }
-
-    #section0 .container img{
-        width: 150px;
-    }
-
-    /*   section 1     */
-    #section1{
-        width: 100vh;
-        height: 230vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 8%;
-        font-size: 245%;
-    }
-
-    #section1 .prints{
-        margin-top: 17%;
-        font-size: 35px;
-    }
-
-    #section1 .img1{
-        width: 40%;
-        margin-top: 20%;
-    }
-
-    #section1 .img1:hover{
-        width: 42%;
-    }
-
-    #section1 .img2{
-        width: 40%;
-        margin-left: 50%;
-        margin-top: 20%;
-    }
-
-    #section1 .img2:hover{
-        width: 42%;
-    }
-
-    #section1 .img3{
-        width: 40%;
-        margin-top: 64%;
-        margin-left: 5%;
-    }
-
-    #section1 .img3:hover{
-        width: 42%;
-    }
-
-    #section1 .img4{
-        width: 40%;
-        margin-top: 72%;
-        margin-left: 50%;
-    }
-
-    #section1 .img4:hover{
-        width: 42%;
-    }
-
-    #section1 .img5{
-        width: 40%;
-        margin-top: 113%;
-    }
-
-    #section1 .img5:hover{
-        width: 42%;
-    }
-
-    #section1 .img55{
+    #tungkol .likod{
         width: 70%;
-        margin-left: 10%;
-        margin-top: 175%;
-    }
-
-    #section1 .img55:hover{
-        width: 72%;
-    }
-
-    #section1 .img56{
-        width: 40%;
-        margin-top: 113%;
-        margin-left: 50%;
-    }
-
-    #section1 .img56:hover{
-        width: 42%;
-    }
-
-    /*     section 2      */
-    #section2{
-        width: 100%;
-        height: 210vh;
-    }
-
-    #section2 .img6{
-        width: 70%;
-        margin-left: 16%;
-        transform: translateX(10%);
-        transition: all 1.5s;
-    }
-
-    #section2 .shirt1{
-        transform: translateX(0);
-    }
-
-    #section2 .img7{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 56%;
-        transform: translateX(10%);
-        transition: all 1.5s;
-    }
-
-    #section2 .shirt2{
-        transform: translateX(0);
-    }
-
-    #section2 .img8{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 103%;
-        transform: translateX(10%);
-        transition: all 1.5s;
-    }
-
-    #section2 .shirt3{
-        transform: translateX(0);
-    }
-
-    #section2 .img9{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 150%;
-        transform: translateX(10%);
-        transition: all 1.5s;
-    }
-
-    #section2 .shirt4{
-        transform: translateX(0);
-    }
-
-    /*     section3       */
-    #section3{
-        width: 100%;
-        height: 120vh;
-    }
-
-    #section3 .likod{
+        height: 70vh;
         margin-left: 15%;
-        height: 65vh;
-        width: 75%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: black;
+        border-radius: 2rem;
+        padding: 2%;
     }
 
-    #section3 p{
-        font-size: 18px;
+    #tungkol .head{
+        color: white;
+        text-shadow: 3px 0px 15px red;
+        text-align: center;
+        padding: 2%;
     }
 
-    #section3 .bg{
-        margin-left: -7%;
-        margin-top: 75%;
-        height: 50%;
+    #tungkol .head img{
+        width: 10%;
+        margin-left: 20%;
+        margin-top: -2%;
         position: absolute;
     }
 
-    #section3 .qualification{
-        margin-left: 110%;
-        position: absolute;
-        width: 100%;
-        margin-top: 9%;
+    #tungkol p{
+        color: white;
+        padding: 2%;
+        font-size: 13px;
+        margin-top: 5%;
     }
 
-    /*    footer      */
+    #tungkol span{
+        color: red;
+    }
+
+    #tungkol .omsim{
+        text-decoration: none;
+        margin: 2%;
+        color: red;
+        position: absolute;
+    }
+
+    #tungkol .shirtt{
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol .senyo{
+        position: absolute;
+        margin-top:  -2%;
+        margin-left: 20%;
+    }
+
+    /*   footer     */
+
     footer{
-        width: 100%;
-        height: 35vh;
-    }    
-
-    footer table{
-        margin-left: 26.5%;
+        height: 50vh;
     }
 
-    footer .copyright{
-        margin-top: 23%;
-        margin-left: 28%;
+    footer img{
+        margin-left: 10%;
     }
 
-    footer .you{
-        margin-left: 35%;
-        margin-top: 12%;
-    }
-
-    footer .tt{
-        margin-left: 35%;
-        margin-top: 15%;
-    }
-
-    footer .yt{
-        margin-left: 45%;
-        margin-top: 15%;
+    footer p{
+        color: white;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-top: -3%;
     }
 
     footer .fb{
-        margin-left: 58%;
-        margin-top: 15%;
+        color: white;
+        margin-left: 30%;
+        margin-top: 10%;
     }
 
+    footer .yt{
+        color: white;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    footer .tt{
+        color: white;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+
+    footer .line{
+        border: 1px solid red;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 624px) and (min-width: 425px) {
+    #cell-phone{
+        display: block;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .cell-phone{
+        background-color: #111;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .second{
+        display: block;
+    }
+
+    #main1{
+        display: none;
+    }
+
+    #pangatlo{
+        display: block;
+    }
+
+    #tungkol{
+        display: block;
+    }
+
+    #paa-foot{
+        display: block;
+    }
+
+    .custom-shape-divider-top-1674724246 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1674724246 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-top-1674724246 .shape-fill {
+        fill: grey;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1674724246 svg {
+            width: calc(100% + 1.3px);
+            height: 126px;
+        }
+    }
+
+    .main{
+        background-color: black;
+        margin-top: 40%;
+        margin-left: 25%;
+        width: 50%;
+        height: 35vh;
+        border-radius: 2rem;
+        box-shadow: 4px 0px 25px grey;
+        position: absolute;
+    }
+
+    .board1{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: absolute;
+    }
+
+    .contact1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 68%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tshirts1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 78%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .designs1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 88%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .fa-sun{
+        color: black;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .fa-moon{
+        color: red;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 100;
+    }
+
+    div h1{
+        color: red;
+    }
+
+    /*     second line     */
+
+    #second{
+        width: 100%;
+        height: 160vh;
+    }
+
+    #second .welcome{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+    }
+
+    #second #printer{
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    .second .img1{
+        position: absolute;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img2{
+        position: absolute;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img3{
+        position: absolute;
+        width: 40%;
+        margin-top: 55%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img4{
+        position: absolute;
+        width: 40%;
+        margin-top: 62.5%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img5{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img55{
+        position: absolute;
+        width: 80%;
+        margin-top: 165%;
+        margin-left: 7%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img56{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    /*      section 3         */
+    #pangatlo{
+        width: 100%;
+        height: 110vh;
+    }
+
+    #pangatlo #tshirt{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #pangatlo .img6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt1{
+        opacity: 100;
+    }
+
+    #pangatlo .img7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt2{
+        opacity: 100;
+    }
+
+    #pangatlo .img8{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt3{
+        opacity: 100;
+    }
+
+    #pangatlo .img9{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt4{
+        opacity: 100;
+    }
+
+    /*  tungkol       */
+
+    #tungkol{
+        width: 100%;
+        height: 80vh;
+    }
+
+    #tungkol .likod{
+        width: 70%;
+        height: 60vh;
+        margin-left: 15%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: black;
+        border-radius: 2rem;
+        padding: 2%;
+    }
+
+    #tungkol .head{
+        color: white;
+        text-shadow: 3px 0px 15px red;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #tungkol .head img{
+        width: 10%;
+        margin-left: 20%;
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol p{
+        color: white;
+        padding: 2%;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    #tungkol span{
+        color: red;
+    }
+
+    #tungkol .omsim{
+        text-decoration: none;
+        margin: 2%;
+        color: red;
+        position: absolute;
+    }
+
+    #tungkol .shirtt{
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol .senyo{
+        position: absolute;
+        margin-top:  -2%;
+        margin-left: 20%;
+    }
+
+    /*   footer     */
+
+    footer{
+        height: 40vh;
+    }
+
+    footer img{
+        margin-left: 10%;
+    }
+
+    footer p{
+        color: white;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-top: -3%;
+    }
+
+    footer .fb{
+        color: white;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    footer .yt{
+        color: white;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    footer .tt{
+        color: white;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+
+    footer .line{
+        border: 1px solid red;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 23%;
+    }
 }
 
 @media screen and (max-width: 424px) {
-    #section0{
+    #cell-phone{
+        display: block;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .cell-phone{
+        background-color: #111;
         width: 100%;
         height: 100vh;
     }
-    
 
-    #section0 .container{
-        margin-top: 60%;
-        width: 85%;
-        margin-left: 7%;
+    .second{
+        display: block;
     }
 
-    #section0 .inputs{
-        margin-top: -45%;
-        margin-left: 55%;
-        font-size: 10px;
-    }
-
-    #section0 .inputss{
-        margin-top: -45%;
-        margin-left: 55%;
-        font-size: 10px;
-    }
-
-    #section0 .fa-message{
+    #main1{
         display: none;
     }
 
-    #section0 .tt{
-        margin-left: 78%;
-        margin-top: -6.5%;
-        font-size: 10px;
+    #pangatlo{
+        display: block;
     }
 
-    #section0 .design{
-        margin-left: 63%;
-        margin-top: -6.5%;
-        font-size: 10px;
+    #tungkol{
+        display: block;
     }
 
-    #section0 .contact{
-        margin-left: 43%;
-        margin-top: -6.5%;
-        font-size: 10px;
+    #paa-foot{
+        display: block;
     }
 
-    #section0 .container h1{
-        font-size: 25px;
-        margin-top: 4.5%;
-    }
-
-    #section0 .container .started{
-        margin-top: 40%;
-        margin-left: 28%;
-        font-size: 15px;
-        transition: 0.5s;
-    }
-
-    #section0 .container .started:hover{
-        font-size: 16px;
-        margin-left: 28%;
-        transition: 0.5s;
-    }
-
-    #section0 .container img{
-        width: 100px;
-        margin-left: 65%;
-    }
-
-    /*   section 1     */
-    #section1{
-        width: 100vh;
-        height: 150vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 8%;
-        margin-top: 10%;
-        font-size: 145%;
-    }
-
-    #section1 .prints{
-        margin-top: 32%;
-        font-size: 20px;
-    }
-
-    #section1 .img1{
-        width: 40%;
-        margin-top: 40%;
-    }
-
-    #section1 .img1:hover{
-        width: 42%;
-    }
-
-    #section1 .img2{
-        width: 40%;
-        margin-left: 50%;
-        margin-top: 40%;
-    }
-
-    #section1 .img2:hover{
-        width: 42%;
-    }
-
-    #section1 .img3{
-        width: 40%;
-        margin-top: 84%;
-        margin-left: 5%;
-    }
-
-    #section1 .img3:hover{
-        width: 42%;
-    }
-
-    #section1 .img4{
-        width: 40%;
-        margin-top: 90%;
-        margin-left: 50%;
-    }
-
-    #section1 .img4:hover{
-        width: 42%;
-    }
-
-    #section1 .img5{
-        width: 40%;
-        margin-top: 130%;
-    }
-
-    #section1 .img5:hover{
-        width: 42%;
-    }
-
-    #section1 .img55{
-        width: 70%;
-        margin-left: 10%;
-        margin-top: 190%;
-    }
-
-    #section1 .img55:hover{
-        width: 72%;
-    }
-
-    #section1 .img56{
-        width: 40%;
-        margin-top: 130%;
-        margin-left: 50%;
-    }
-
-    #section1 .img56:hover{
-        width: 42%;
-    }
-
-    /*     section 2      */
-    #section2{
+    .custom-shape-divider-top-1674724246 {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: 120vh;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1674724246 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-top-1674724246 .shape-fill {
+        fill: grey;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1674724246 svg {
+            width: calc(100% + 1.3px);
+            height: 126px;
+        }
     }
 
-    #section2 .img6{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 20%;
-        transform: translateX(5%);
-        transition: all 1.5s;
+    .main{
+        background-color: black;
+        margin-top: 70%;
+        margin-left: 15%;
+        width: 75%;
+        height: 45vh;
+        border-radius: 2rem;
+        box-shadow: 4px 0px 25px grey;
+        position: absolute;
     }
 
-    #section2 .shirt1{
-        transform: translateX(0);
+    .board1{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: absolute;
     }
 
-    #section2 .img7{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 66%;
-        transform: translateX(5%);
-        transition: all 1.5s;
+    .contact1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 68%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
     }
 
-    #section2 .shirt2{
-        transform: translateX(0);
+    .tshirts1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 78%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
     }
 
-    #section2 .img8{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 113%;
-        transform: translateX(5%);
-        transition: all 1.5s;
+    .designs1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 88%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
     }
 
-    #section2 .shirt3{
-        transform: translateX(0);
+    .fa-sun{
+        color: black;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 0;
     }
 
-    #section2 .img9{
-        width: 70%;
-        margin-left: 16%;
-        margin-top: 160%;
-        transform: translateX(5%);
-        transition: all 1.5s;
+    .fa-moon{
+        color: red;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 100;
     }
 
-    #section2 .shirt4{
-        transform: translateX(0);
+    div h1{
+        color: red;
     }
 
-    /*     section3       */
-    #section3{
+    /*     second line     */
+
+    #second{
+        width: 100%;
+        height: 140vh;
+    }
+
+    #second .welcome{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+    }
+
+    #second #printer{
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    .second .img1{
+        position: absolute;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img2{
+        position: absolute;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img3{
+        position: absolute;
+        width: 40%;
+        margin-top: 55%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img4{
+        position: absolute;
+        width: 40%;
+        margin-top: 62.5%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img5{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img55{
+        position: absolute;
+        width: 80%;
+        margin-top: 165%;
+        margin-left: 7%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img56{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    /*      section 3         */
+    #pangatlo{
         width: 100%;
         height: 100vh;
     }
 
-    #section3 .likod{
+    #pangatlo #tshirt{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #pangatlo .img6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt1{
+        opacity: 100;
+    }
+
+    #pangatlo .img7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt2{
+        opacity: 100;
+    }
+
+    #pangatlo .img8{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt3{
+        opacity: 100;
+    }
+
+    #pangatlo .img9{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt4{
+        opacity: 100;
+    }
+
+    /*  tungkol       */
+
+    #tungkol{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #tungkol .likod{
+        width: 70%;
+        height: 80vh;
         margin-left: 15%;
-        height: 35vh;
-        width: 75%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: black;
+        border-radius: 2rem;
+        padding: 2%;
     }
 
-    #section3 .head{
-        font-size: 20px;
+    #tungkol .head{
+        color: white;
+        text-shadow: 3px 0px 15px red;
+        text-align: center;
+        padding: 2%;
     }
 
-    #section3 .art{
-        margin-left: 9%;
-        margin-top: -1.5%;
-        width: 15%;
-    }
-
-    #section3 p{
-        font-size: 8px;
-    }
-
-    #section3 .tshirt{
-        font-size: 8px;
-        margin-top: 45%;
-    }
-
-    #section3 .desenyo{
-        font-size: 8px;
-        margin-top: 45%;
-    }
-
-    #section3 .bg{
-        margin-left: -7%;
-        margin-top: 70%;
-        height: 50%;
+    #tungkol .head img{
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 1%;
         position: absolute;
     }
 
-    #section3 .qualification{
-        margin-left: 110%;
-        height: 100%;
+    #tungkol p{
+        color: white;
+        padding: 2%;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    #tungkol span{
+        color: red;
+    }
+
+    #tungkol .omsim{
+        text-decoration: none;
+        margin: 2%;
+        color: red;
         position: absolute;
-        width: 100%;
-        margin-top: 9%;
     }
 
-    #section3 .info{
-        font-size: 8px;
+    #tungkol .shirtt{
+        margin-top: -2%;
+        position: absolute;
     }
 
-    /*    footer      */
+    #tungkol .senyo{
+        position: absolute;
+        margin-top:  -2%;
+        margin-left: 28%;
+    }
+
+    /*   footer     */
+
     footer{
-        width: 100%;
         height: 35vh;
-    }    
-
-    footer table{
-        margin-left: 7.5%;
     }
 
-    footer .copyright{
-        margin-top: 50%;
-        margin-left: 25%;
-        font-size: 8px;
+    footer img{
+        margin-left: 35%;
     }
 
-    footer .you{
-        margin-left: 20%;
-        margin-top: 24%;
-    }
-
-    footer .tt{
-        margin-left: 25%;
-        margin-top: 30%;
-    }
-
-    footer .yt{
-        margin-left: 45%;
-        margin-top: 30%;
+    footer p{
+        color: white;
+        font-size: 10px;
+        margin-left: 10%;
+        margin-top: -3%;
     }
 
     footer .fb{
-        margin-left: 68%;
-        margin-top: 30%;
+        color: white;
+        margin-left: 25%;
+        margin-top: 10%;
     }
 
+    footer .yt{
+        color: white;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    footer .tt{
+        color: white;
+        margin-left: 65%;
+        margin-top: 10%;
+    }
+
+    footer .line{
+        border: 1px solid red;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 30%;
+    }
 }
